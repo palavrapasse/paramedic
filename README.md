@@ -1,4 +1,4 @@
-# santos
+# paramedic
 
 Health checker shared module.
 
