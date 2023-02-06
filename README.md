@@ -1,6 +1,6 @@
 # paramedic
 
-Health checker shared module.
+Shared health checker module
 
 ## Hooks
 
