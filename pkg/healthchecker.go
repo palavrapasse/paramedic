@@ -25,7 +25,7 @@ func CheckHealth() (HealthStatus, error) {
 
 	ram := vmStat.Total
 	ramMax := ram + vmStat.Free
-	ramPercentage := math.Round(vmStat.UsedPercent*100) / 100
+	ramPercentage := vmStat.UsedPercent
 
 	result := HealthStatus{
 		CPU:           float64(cpu),
